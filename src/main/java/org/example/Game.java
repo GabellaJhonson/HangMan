@@ -32,7 +32,7 @@ public class Game {
         int lives = 10;
         int letters = word.length();
         String input;
-        System.out.println("Хорошо, " + name + ", я загадал новое слово");
+        System.out.println("Хорошо, " + name + ", я загадал новое слово test push");
         while(lives > 0 && letters > 0) {
             draw(secretWord);
             input = in.nextLine();
